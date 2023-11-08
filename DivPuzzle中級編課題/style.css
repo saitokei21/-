@@ -1,0 +1,57 @@
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container{
+  float: left;
+}
+
+.contents{
+  float: left;
+}
+
+.red--box{
+  background: #f00;
+  width: 400px;
+  height: 100px;
+}
+
+.green--box{
+  background: #00ff51;
+  width: 150px;
+  height: 250px;
+  float:left;
+}
+
+.yellow--box{
+  background: #fff700;
+  width: 400px;
+  height: 100px;
+}
+
+.purple--box{
+  background: #cc00db;
+  width: 150px;
+  height: 50px;
+}
+
+.bule--box{
+  background: #0093b7;
+  width: 150px;
+  height: 100px;
+}
+
+.skin-color--box{
+  background: #ff9e6b;
+  width: 100px;
+  height: 150px;
+  float: left;
+}
+
+.brown--box{
+  background: #8c2727;
+  width: 250px;
+  height: 100px;
+}
