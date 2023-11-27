@@ -1,37 +1,37 @@
-.clearfix::after{
+.clearfix::after {
   content: "";
   display: block;
   clear: both;
 }
 
-.container{
+.container {
   float: left;
 }
 
-.contents{
+.contents {
   float: left;
 }
 
-.red--box{
+.red--box {
   background: #f00;
   width: 400px;
   height: 100px;
 }
 
-.green--box{
+.green--box {
   background: #00ff51;
   width: 150px;
   height: 250px;
-  float:left;
+  float: left;
 }
 
-.yellow--box{
+.yellow--box {
   background: #fff700;
   width: 400px;
   height: 100px;
 }
 
-.purple--box{
+.purple--box {
   background: #cc00db;
   width: 150px;
   height: 50px;
